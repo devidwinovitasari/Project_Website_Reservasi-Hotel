@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabel</title>
+</head>
+<body><style>
+    body{
+        background-image: url(img/blue.jpg);
+        background-size: cover;
+    }
+    a{
+        text-decoration: none;
+    }
+    .container {
+        width:80%;
+        margin: 0 auto;
+    }
+    .container::after {
+        content:'';
+        display: block;
+        clear: both;
+    }
+    header h1 {
+        float: left;
+        padding: 15px 0;
+        color: #201e1e;
+    }
+    header ul {
+        float: right;
+    }
+    header ul li {
+        display: inline-block;
+    }
+    header ul li a {
+        padding: 25px 20px;
+        display: inline-block;
+    }
+    header ul li a:hover {
+        background-color: #aec0db;
+        color: #fff;
+    }
+    .active {
+        background-color: #aec0db;
+        color: #fff;
+    }
+</style></body>
+<body>
+    <header>
+        <div class="container">
+            <h1 color="black">Tipe Kamar The Langham Hotel</a></h1>
+            <ul>
+                <li><a href="Utama.html"><b>HOME</b></a></li>
+                <li class="active"><a href="Tabel.html"><b>SPESIFIKASI</b></a></li>
+                <li><a href="Daftarnew.php"><b>DAFTAR</b></a></li>
+                <li><a href="Contact.html"><b>CONTACT</b></a></li>
+            </ul>
+        </div>
+    </header>
+<center>
+        <table border="1" cellpadding="10">
+        <tr><th colspan="8" bgcolor="cyan" align="center" style="font-size: large; color: rgb(20, 20, 20)">Daftar Pilihan Kamar Hotel</th></tr>
+        <tr align="center" bgcolor="cyan" style="color: rgb(20, 20, 20); font-size: large;">
+            <th rowspan="2">No</th>
+            <th rowspan="2">Tipe Kamar</th>
+            <th rowspan="2">Harga</th>
+        </tr>
+        <tr align="center" bgcolor="cyan" style="color:  rgb(20, 20, 20); font-size: large;">
+            <th>Spesifikasi</th>
+            <th>Gambar</th>
+        </tr>
+        <tr valign="top" bgcolor="white" style="color: rgb(20, 20, 20);">
+            <td>1.</td>
+            <td>Standard Room</td>
+            <td>Rp. 150.000</td>
+            <td align="left">
+                <ul>
+                    <li>Kasur Model Single Bed ada 1</li>
+                    <li>Fasilitas AC, Perlengkapan Mandi & Air Minum</li>
+                    <li>Ukuran Ruangan 7x5 Meter</li>
+                </ul>
+            </td>
+            <td><img src="img/standard room.jpg"width="300px" height="200px"></td>
+        <tr valign="top" bgcolor="white" style="color: rgb(20, 20, 20);">
+            <td>2.</td>
+            <td>Single Room</td>
+            <td>Rp. 300.000</td>
+            <td align="left">
+                <ul>
+                    <li>Kasur Model Single Bed ada 2</li>
+                    <li>Fasilitas AC, TV, Perlengkapan Mandi & Air Minum</li>
+                    <li>Ukuran Ruangan 10x6 Meter</li>
+                </ul>
+            </td>
+            <td><img src="img/singlebed.jpg"width="300px" height="200px"></td>
+        <tr valign="top" bgcolor="white" style="color: rgb(20, 20, 20);">
+            <td>3.</td>
+            <td>Double Room</td>
+            <td>Rp. 500.000</td>
+            <td align="left">
+                <ul>
+                    <li>Kasur Model Double Bed ada 2</li>
+                    <li>Fasilitas AC, TV, Perlengkapan Mandi & Air Minum</li>
+                    <li>Ukuran Ruangan 12x8 Meter</li>
+                </ul>
+            </td>
+            <td><img src="img/double room.jpg"width="300px" height="200px"></td>
+        <tr valign="top" bgcolor="white" style="color: rgb(20, 20, 20);">
+            <td>4.</td>
+            <td>Family Room</td>
+            <td>Rp. 800.000</td>
+            <td align="left">
+                <ul>
+                    <li>Kasur Model Double Bed (2) & Single Bed (2)</li>
+                    <li>Fasilitas AC, TV, Perlengakapan Mandi & Air Minum</li>
+                    <li>Ukuran Ruangan 15x15 Meter</li>
+                </ul>
+            </td>
+            <td><img src="img/Family-Room.jpg"width="300px" height="200px"></td>
+        <tr valign="top" bgcolor="white" style="color: rgb(20, 20, 20);">
+            <td>5.</td>
+            <td>Presidential Suite</td>
+            <td>Rp. 10.000.000</td>
+            <td align="left">
+                <ul>
+                    <li>Kasur Model Double Bed size King 2</li>
+                    <li>Fasilitas AC, TV, Sofa, Perlengkapan Mandi & Air Minum</li>
+                    <li>Ukuran Ruangan 20x20 Meter</li>
+                </ul>
+            </td>
+            <td><img src="img/presidential suite.jpg"width="300px" height="200px"></td>
+        </tr>
+    </center>
+</body>
+</html>
